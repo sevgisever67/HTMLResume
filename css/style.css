@@ -1,0 +1,93 @@
+
+
+*{
+    box-sizing:border-box
+}
+
+a{
+    text-decoration: none;
+}
+input,textarea{
+border: 3px solid rgb(148, 2, 2);
+border-radius: 20px ;
+width: 100%;
+
+}
+button{
+border: 5px solid rgb(134, 39, 39);
+border-radius: 10px ;
+background-color: rgb(211, 103, 103);
+font-size: 20px;
+color: antiquewhite;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid  rgb(230, 118, 118);
+    border-radius: 50px;
+    background-color: rgb(225, 148, 148);
+    padding: 15px;
+}
+.header .title {
+    display:flex ;
+    align-items: center;
+    gap: 30px;
+}
+.content .about img{
+    border: 3px solıd rgb(253, 215, 215);
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-left: 150px;
+   
+
+}
+
+.content .about{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 40px;
+    padding: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section {
+    width: 80%;
+}
+
+.section .card{
+    display: flex;
+    align-items: center;
+    border: 3px solıd rgb(148, 97, 97); ;
+    padding: 40px;
+    margin: 40px;
+    background-color: rgb(229, 149, 149);
+    border-radius: 40px;
+    box-shadow:20px 10px 20px gray ;
+}
+.section .card .left{
+    flex: 2;
+}
+.section .card .right{
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top:3px dashed gray;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding:200px;
+    font-size: 20px;
+    background-color: antiquewhite;
+
+}
